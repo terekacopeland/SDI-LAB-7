@@ -10,7 +10,7 @@ var jsonData = {
 	[
 		
 		{
-			"festival": "Ultra",
+			"festival": "Ultra Festival",
 			"location": "Miami",
 			"yearAttended": 2011,
 			"genre": "dance music"
@@ -22,7 +22,7 @@ var jsonData = {
 			"genre": "dance music"
 		},
 		{
-			"festival": "TomorrowWorld",
+			"festival": "TomorrowWorld Festival",
 			"location": "Atlanta",
 			"yearAttended": 2013,
 			"genre": "dance music"

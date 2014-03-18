@@ -19,11 +19,11 @@ function musicFestivals(jsonData) {
 	
 	var musicFestivals = new objConstructor(jsonData.musicFestivals[i].festival, jsonData.musicFestivals[i].location, jsonData.musicFestivals[i].yearAttended, jsonData.musicFestivals[i].genre);
 	
-	console.log(musicFestivals.festival);
+	console.log("I have attended the " + musicFestivals.festival + " at " + musicFestivals.location + " in " + musicFestivals.yearAttended + " with the genre " + musicFestivals.genre + ".");
 	
-	if (jsonData.musicFestivals[i].festival === "TomorrowWorld") {
+	if (jsonData.musicFestivals[i].festival === "TomorrowWorld Festival") {
 		
-		console.log("This was my favorite festival I ever attended!");
+		console.log("This was my favorite festival I ever!");
 	};
 	
 };
