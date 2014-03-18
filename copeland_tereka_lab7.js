@@ -23,7 +23,7 @@ function musicFestivals(jsonData) {
 	
 	if (jsonData.musicFestivals[i].festival === "TomorrowWorld Festival") {
 		
-		console.log("This was my favorite festival I ever!");
+		console.log("This was my favorite festival ever!");
 	};
 	
 };
