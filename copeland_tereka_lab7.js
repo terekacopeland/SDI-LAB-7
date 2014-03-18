@@ -14,14 +14,14 @@ var objConstructor = function(festival, location, yearAttended, genre) {
     this.genre = genre;
 };
 
-function musicfestival(jsonData) {
-	for (var i = 0; i < jsonData.musicFestival.length; i++) {
+function musicFestivals(jsonData) {
+	for (var i = 0; i < jsonData.musicFestivals.length; i++) {
 	
-	var musicFestival = new objConstructor(jsonData.musicFestival[i].festival, jsonData.musicFestival[i].location, jsonData.musicFestival[i].yearAttended, jsonData.musicFestival[i].genre);
+	var musicFestivals = new objConstructor(jsonData.musicFestivals[i].festival, jsonData.musicFestivals[i].location, jsonData.musicFestivals[i].yearAttended, jsonData.musicFestivals[i].genre);
 	
-	console.log(musicFestival.festival);
+	console.log(musicFestivals.festival);
 	
-	if (jsonData.musicFestival[i].festival === "TomorrowWorld") {
+	if (jsonData.musicFestivals[i].festival === "TomorrowWorld") {
 		
 		console.log("This was my favorite festival I ever attended!");
 	};
@@ -30,5 +30,4 @@ function musicfestival(jsonData) {
 
 };
 
-	
-}
+musicFestivals(jsonData);
