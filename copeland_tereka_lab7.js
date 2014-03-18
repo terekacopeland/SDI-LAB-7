@@ -3,4 +3,17 @@
 //Lab 7 Working With Objects
 //Tereka Copeland
 
-console.log(jsonData);
+var objConstructor = function(festival, location, yearAttended, genre) {
+	
+    this.festival = festival;
+    
+    this.location = location;
+    
+    this.yearAttended = yearAttended;
+    
+    this.genre = genre;
+};
+
+function musicfestival(jsonData) {
+	
+}
