@@ -15,5 +15,20 @@ var objConstructor = function(festival, location, yearAttended, genre) {
 };
 
 function musicfestival(jsonData) {
+	for (var i = 0; i < jsonData.musicFestival.length; i++) {
+	
+	var musicFestival = new objConstructor(jsonData.musicFestival[i].festival, jsonData.musicFestival[i].location, jsonData.musicFestival[i].yearAttended, jsonData.musicFestival[i].genre);
+	
+	console.log(musicFestival.festival);
+	
+	if (jsonData.musicFestival[i].festival === "TomorrowWorld") {
+		
+		console.log("This was my favorite festival I ever attended!");
+	};
+	
+};
+
+};
+
 	
 }
